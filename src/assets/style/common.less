@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+// 字体颜色
+@font-color-fff: #fff;
+@font-color-333: #333;
+@font-color-666: #666;
+@font-color-999: #999;
+@font-color-f0f0f0: #f0f0f0;
+@font-color-424954: #424954;
+@font-color-b5b5b5: #b5b5b5;
+@font-color-616161: #616161;
+@font-color-656565: #656565;
+@font-color-fd6255: #fd6255;
+@font-color-2a84f8: #2a84f8;
+@font-color-bed5fc: #bed5fc;
+@font-color-ff4c4c: #ff4c4c;
+@font-color-ef5447: #ef5447;
+
+// 字体大小
+@font-12: 12px;
+@font-24: 24px;
+@font-26: 26px;
+@font-28: 28px;
+@font-30: 30px;
+@font-32: 32px;
+@font-34: 34px;
+@font-36: 36px;
+@font-40: 40px;
+@font-48: 48px;
+@font-64: 64px;
+@font-70: 70px;
+@font-82: 82px;
+@font-130: 130px;
+
+// 边框颜色
+@border-color-000: #000;
+@border-color-fff: #fff;
+@border-color-999: #999;
+@border-color-e5e5e5: #e5e5e5;
+@border-color-b5b5b5: #b5b5b5;
+@border-color-f8a741: #f8a741;
+@border-color-f1f1f1: #f1f1f1;
+@border-color-2a84f8: #2a84f8;
+
+// 边框大小
+@border-size-4: 4px;
+@border-size-1: 1px;
+
+// 背景颜色
+@background-color-fff: #fff;
+@background-color-999: #999;
+@background-color-f5f5f5: #f5f5f5;
+@background-color-fd6255: #fd6255;
+@background-color-f8f8f8: #f8f8f8;
+@background-color-fe7756: #fe7756;
+@background-color-f94836: #f94836;
+// sdk
+@background-color-f0f0f0: #f0f0f0;
+@background-color-f1f1f1: #f1f1f1;
+@background-color-f5f6f8: #f5f6f8;
+@background-color-2a84f8: #2a84f8;
+@background-color-c9e6ff: #c9e6ff;
+@background-color-ff4c4c: #ff4c4c;
+@background-color-e5e5e5: #e5e5e5;
+@background-color-fdef49: #fdef49;
+
+// margin和padding
+
+@mp-10: 10px;
+@mp-15: 15px;
+@mp-18: 18px;
+@mp-20: 20px;
+@mp-30: 30px;
+@mp-35: 35px;
+@mp-40: 40px;
+@mp-50: 50px;
+@mp-60: 60px;
+@mp-70: 70px;
+@mp-80: 80px;
+@mp-100: 100px;
+@mp-170: 170px;
+@mp-180: 180px;
+
+// 公共样式
+body {
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif, Tahoma;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.body {
+  background: @background-color-f5f6f8;
+}
+input {
+  background: none;
+  border: 0;
+  outline: none;
+  font-size: @font-30;
+}
+img{
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-size: @font-30;
+}
+.container {
+  margin: 90px 0;
+}
+.bg_com {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  background: @background-color-f5f5f5;
+  margin-bottom: 0;
+}
+.white {
+  background: @background-color-fff;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+// 动画
+@keyframes animateWidth {
+  from {
+    width: 80%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-moz-keyframes animateWidth {
+  from {
+    width: 80%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes animateWidth {
+  from {
+    width: 80%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-o-keyframes animateWidth {
+  from {
+    width: 80%;
+  }
+  to {
+    width: 100%;
+  }
+}
